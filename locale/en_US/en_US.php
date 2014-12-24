@@ -1,25 +1,6 @@
 <?php
 
-/**
- * 
- * Creator: 
- * 
- * Translation in codoforum is very simple 
- * Copy paste this file into
- * locale/your_language/your_language.php
- * 
- * For eg. locale/ru_RU/ru_RU.php or locale/russian/russian.php
- * 
- * After that , write translations of left of => to the right of =>
- * in that file.
- * 
- * For eg.
- * 
- * 'My profile' => 'Мой профиль',
- * 
- * You can then select the language from the backend
- *
- */
+
 
 $CODOT[' Discard draft']=' Discard draft'
 $CODOT[' Keep me logged in']=' Keep me logged in'
