@@ -321,7 +321,6 @@
   'username or e-mail address' => 'nom d\'utilisateur ou adresse email',
   'views' => 'vues',
   'your previous draft will be discarded.' => 'votre précédent brouillon sera détruit.',
-  ,
   'Topic should be' => 'le sujet sera',
   'sticky and show in front page and category page' => 'Epinglé et affiché a l\'accueil et par catégorie',
   'sticky and show only in category page' => 'Epinglé et affiché seulement par catégorie',
