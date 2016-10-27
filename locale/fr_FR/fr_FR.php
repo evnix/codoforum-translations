@@ -321,4 +321,15 @@
   'username or e-mail address' => 'nom d\'utilisateur ou adresse email',
   'views' => 'vues',
   'your previous draft will be discarded.' => 'votre précédent brouillon sera détruit.',
+  ,
+  'Topic should be' => 'le sujet sera',
+  'sticky and show in front page and category page' => 'Epinglé et affiché a l\'accueil et par catégorie',
+  'sticky and show only in category page' => 'Epinglé et affiché seulement par catégorie',
+  'not sticky' => 'Pas épinglé',
+  'sticky topics are always shown before the normal topics' => 'Les sujets epinglés sont toujours affichés avant les sujets normaux',
+  'Set the topic status as' => 'Définir l\'état du sujet comme',
+  'people cannot reply to closed topics.' => 'Personne ne peut répondre aux sujets clos',
+  'Open' => 'ouvert',
+  'Close' => 'fermé',
+'Should the topic be auto-closed ?'=> 'Le Sujet doit-il être fermé automatiquement ?'
 );
