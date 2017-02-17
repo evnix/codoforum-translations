@@ -8,14 +8,14 @@
  * Copy paste this file into
  * locale/your_language/your_language.php
  * 
- * For eg. locale/ru_RU/ru_RU.php or locale/russian/russian.php
+ * For eg. locale/de_DE/de_DE.php
  * 
  * After that , write translations of left of => to the right of =>
  * in that file.
  * 
  * For eg.
  * 
- * 'My profile' => 'Мein Profil',
+ * 'My profile' => 'Mein Profil',
  * 
  * You can then select the language from the backend
  *
@@ -42,8 +42,8 @@
   '%s minutes ago' => 'vor %s Minuten',
   '%s second ago' => 'vor %s Sekunde',
   '%s seconds ago' => 'vor %s Sekunden',
-  '<b>WARNING:</B> You mentioned %MENTIONS%, but they cannot see this message and will not be notified' => '<b>WARNUNG:</B> Du hast %MENTIONS% erwähnt, aber der Nutzerkann diese Nachricht nicht sehen und wird darüber nicht benachrichtigt',
-  'A confirmation email has been sent to your email address!' => 'Eine Bstätigungsmail wurde an Deine E-Mail-Adresse gesendet!',
+  '<b>WARNING:</B> You mentioned %MENTIONS%, but they cannot see this message and will not be notified' => '<b>WARNUNG:</B> Du hast %MENTIONS% erwähnt, aber der Nutzer kann diese Nachricht nicht sehen und wird darüber nicht benachrichtigt',
+  'A confirmation email has been sent to your email address!' => 'Eine Bestätigungsmail wurde an Deine E-Mail-Adresse gesendet!',
   'Access Denied' => 'Zugriff verweigert',
   'Access denied' => 'Zugriff verweigert',
   'Add' => 'Neu',
@@ -60,14 +60,15 @@
   'Asc' => 'Aufsteigend',
   'Author' => 'Autor',
   'Be notified of new replies' => 'Über Antworten benachrichtigt werden',
-  'Be the first to' => '',
-  'Be the first to ' => '',
+  'Be the first to' => 'Sei der erste',
+  'Be the first to ' => 'Sei der erste, der ',
   'Cancel' => 'Abbrechen',
   'Categories' => 'Kategorien',
   'Category' => 'Kategorie',
   'Change' => 'Ändern',
   'Change password' => 'Password ändern',
   'Click to resume editing' => 'Klick um Bearbeiten fortzusetzen',
+  'Close' => 'Schließen',
   'Confirm password' => 'Passwort bestätigen',
   'Confirm user' => 'Nutzer bestätigen',
   'Continue' => 'Fortfahren',
@@ -79,14 +80,15 @@
   'Delete' => 'Löschen',
   'Desc' => 'Absteigend',
   'Describe your topic . You can use BBcode or Markdown' => 'Inhalt des Themas. Du kannst BBcode oder Markdown verwenden',
-  'Drop files to upload &nbsp;&nbsp;(or click)' => 'Dateien hierher ziehen um sie hochzuladen &nbsp;&nbsp;(or klick)',
+  'Drop files to upload &nbsp;&nbsp;(or click)' => 'Dateien hierher ziehen um sie hochzuladen &nbsp;&nbsp;(oder Klick)',
   'E-mail new password' => 'E-mail neues Passwort',
   'E-mail reset token' => 'E-mail senden',
   'E-mail sent successfully' => 'E-mail erfolgreich versendet',
   'Edit' => 'Bearbeiten',
-  'Edit topic ' => 'Thema bearbeiten ',
+  'Edit history' => 'Versionen bearbeiten',
+  'Edit topic ' => 'Thema bearbeiten ',  
   'Email confirmation successfull' => 'E-Mail-Bestätigung war erfolgreich',
-  'Email notifications' => 'Benachrichtigungen per Mail',
+  'Email notifications' => 'Benachrichtigungen per E-Mail',
   'Enable infinite scrolling' => 'Nachladen mit Scrollen',
   'Enable real-time notifications' => 'Echtzeit-Benachrichtigungen einschalten',
   'Followers' => 'Leser',
@@ -94,6 +96,7 @@
   'General' => 'Allgemein',
   'Give a title for your topic' => 'Vergib einen Titel für Dein Thema',
   'Hide topic messages' => 'Nur Überschriften',
+  'History' => 'Versionen',   
   'I forgot my password' => 'Ich habe mein Passwort vergessen',
   'If you continue, ' => 'Wenn Du fortfährst, ',
   'Immediate' => 'Sofort',
@@ -162,6 +165,7 @@
   'Profile' => 'Profil',
   'Recent posts' => 'Letzte Beiträge',
   'Register' => 'Registrieren',
+  'Related Topics' => 'Verwandte Themen',     
   'Replies' => 'Antworten',
   'Request new passsword' => 'Neues Passwort anfordern',
   'Resend email' => 'E-Mail erneut senden',
@@ -216,8 +220,13 @@
   'Wrong username or password' => 'Falscher Nutzername oder Passwort',
   'Yes' => 'Ja',
   'You are moving this topic from %fromCategoryName% to %toCategoryName%' => 'Du verschiebst dieses Thema von %fromCategoryName% nach %toCategoryName%',
+  'You cannot give more than %d reps per day' => 'Du kannst nicht mehr als %d Reputation pro Tag vergeben',
+  'You cannot give reputation to the same post again' => 'Du kannst für einen Beitrag nicht mehrmals Reputation vergeben',  
   'You do not have enough permissions to view this page!' => 'Du hast keine ausreichenden Rechte, um diese Seite zu sehen!',
+  'You do not have enough rep points or posts to give reputation' => 'Du hast nicht genug Reputationspunkte oder Beiträge, um Reputation zu vergeben',
   'You do not have permission to ' => 'Du hast keine ausreichenden Rechte, um ',
+  'You do not have permission to give reputation' => 'Du hast keine Berechtigung, um Reputation zu vergeben',
+  'You have already given the maximum number of reps to this user, please wait for sometime' => 'Du hast bereits die maximale Anzahl Reputation an diesen Nutzer vergeben, bitte etwas warten',     
   'You have been banned ' => 'Du wurdest gebannt ',
   'You have no recent posts' => 'Du hast keine letzten Beiträge',
   'You have not yet confirmed your email address.' => 'Du hast Deine E-Mail-Adresse noch nicht bestätigt.',
@@ -246,6 +255,7 @@
   'display name' => 'Anzeigename',
   'edit' => 'bearbeiten',
   'edit this topic' => 'Dieses Thema bearbeiten',
+  'edited' => 'bearbeitet',     
   'email' => 'E-Mail',
   'email address is already registered' => 'E-Mail-Adresse ist bereits registriert',
   'email address not formatted correctly' => 'Kein korrektes E-Mail-Format',
@@ -254,7 +264,7 @@
   'followers' => 'Leser',
   'hour' => 'Stunde',
   'hours' => 'Stunden',
-  'if unchecked, will show topic only in category page' => 'Falls abgewählt werden nur Themen in der Kategorieseite angezeigt',
+  'if unchecked, will show topic only in category page' => 'Falls abgewählt, werden nur Themen in der Kategorieseite angezeigt',
   ' in 2 seconds' => ' in 2 Sekunden',
   'in 2 seconds' => 'in 2 Sekunden',
   'is pending' => 'wartet auf',
@@ -299,6 +309,7 @@
   'replied to' => 'antwortete auf',
   'replies' => 'Antworten',
   'reply' => 'Antwort',
+  'reputation points' => 'Reputationspunkte',     
   'reset token' => 'Token zurücksetzen',
   'second' => 'Sekunde',
   'seconds' => 'Sekunden',
@@ -320,6 +331,8 @@
   'username field cannot be left empty' => 'Nutzername darf nicht leer sein',
   'username or e-mail address' => 'Nutzername oder E-Mail',
   'views' => 'x angezeigt',
+  'vote down' => 'positiv bewerten',
+  'vote up' => 'positiv bewerten',     
   'your previous draft will be discarded.' => 'Der vorige Entwurf wird verworfen.',
   'You need to login to view the forum' => 'Du musst Dich anmelden, um das Forum zu verwenden.' 
 );
