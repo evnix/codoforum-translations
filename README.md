@@ -1,4 +1,4 @@
 codoforum-translations
 ======================
 
-codoforum translation  http://codoforum
+codoforum translation  https://codoforum.com
